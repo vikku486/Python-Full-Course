@@ -1,18 +1,19 @@
 """
-🙅‍♂️ Python Data Types:- Python Data types are the classification or categorization of data items. It represents the
-kind of value that tells what operations can be performed on a particular data. Since everything is an object in
-Python programming, Python data types are classes and variables are instances (objects) of these classes.
-👉 In Python, A data type is a classification that specifies the "type of value" a variable can hold. We can check
-data type using "type()" function.
-👉 Every value has a datatype, and variables can hold values. Python is a powerfully composed language; consequently,
-we don't have to characterize the sort of variable while announcing it. The interpreter binds the value implicitly
-to its type.
+🙅‍♂️ Python Data Types:- Python Data types are the classification or categorization of data items. It represents the kind of value that tells 
+what operations can be performed on a particular data. Since everything is an object in Python programming, Python data types are classes and 
+variables are instances (objects) of these classes.
+👉 In Python, A data type is a classification that specifies the "type of value" a variable can hold. We can check data type using 
+"type()" function.
+👉 Every value has a datatype, and variables can hold values. Python is a powerfully composed language; consequently, we don't have to 
+characterize the sort of variable while announcing it. The interpreter binds the value implicitly to its type.
+
 
 ⭐ Standard data types:-
-👉 A variable can contain a variety of values. On the other hand, a person's id must be stored as an integer, while
-their name must be stored as a string.
-👉 The storage method for each of the standard data types that Python provides is specified by Python. The following is
-a list of the Python-defined data types.
+👉 A variable can contain a variety of values. On the other hand, a person's id must be stored as an integer, while their name must be stored 
+as a string.
+👉 The storage method for each of the standard data types that Python provides is specified by Python. The following is a list of the 
+Python-defined data types.
+
 
 ⭐ Types of datatypes
 1. Numeric Type:- Integer, float, complex number
@@ -22,12 +23,14 @@ a list of the Python-defined data types.
 5. Mapping Type:- Dictionary
 6. Binary Data Types:- bytes, bytearray, memory view
 
+
 Difference Between Mutable and Immutable
 ✅ Mutable:- A mutable object is one whose value can be changed after it is created.
 ➤ Examples of Mutable Types: List, Dictionary, Set, bytearray
 🔒 Immutable:- An immutable object is one whose value cannot be changed after it is created.
 ➤ Examples of Immutable Types: Integer, float, Boolean, string, tuple, bytes
 """
+
 
 
 #---------------------------------------------------------------------------------------------------------------------
@@ -40,6 +43,7 @@ print(type(a2))
 print(type(a3))
 
 
+
 #---------------------------------------------------------------------------------------------------------------------
 # 2. Sequence Type:- Strings, List, Tuple
 b1 = "Hello world"                     #String:- Represents a sequence of Unicode characters (text).
@@ -50,11 +54,13 @@ print(type(b2))
 print(type(b3))
 
 
+
 #---------------------------------------------------------------------------------------------------------------------
 # 3. Boolean:- Represents one of two values: True or False.
 bool1 = True         #True
 bool2 = False        #False
 print(type(bool1))
+
 
 
 #---------------------------------------------------------------------------------------------------------------------
@@ -63,10 +69,12 @@ my_set = {2, 4, 6, 8, "Hello", 23.6}
 print(type(my_set))
 
 
+
 #---------------------------------------------------------------------------------------------------------------------
 # 5. Mapping Type:- Dictionary:- An unordered collection of key-value pairs.
 my_dict = {"name":"vikas", "age":28, "city":"Delhi"}
 print(type(my_dict))
+
 
 
 #---------------------------------------------------------------------------------------------------------------------
@@ -83,72 +91,6 @@ print(type(byte_array))
 byte_array = bytearray([10, 20, 30, 40, 50])
 mem_view = memoryview(byte_array)
 print(type(mem_view))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
