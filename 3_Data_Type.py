@@ -1,7 +1,7 @@
 """
 🙅‍♂️ Python Data Types:- Python Data types are the classification or categorization of data items. It represents the kind of value that tells 
-what operations can be performed on a particular data. Since everything is an object in Python programming, Python data types are classes and 
-variables are instances (objects) of these classes.
+what operations can be performed on a particular data. Since everything is an object in Python programming, Python data types are classes 
+and variables are instances (objects) of these classes.
 👉 In Python, A data type is a classification that specifies the "type of value" a variable can hold. We can check data type using 
 "type()" function.
 👉 Every value has a datatype, and variables can hold values. Python is a powerfully composed language; consequently, we don't have to 
@@ -9,8 +9,8 @@ characterize the sort of variable while announcing it. The interpreter binds the
 
 
 ⭐ Standard data types:-
-👉 A variable can contain a variety of values. On the other hand, a person's id must be stored as an integer, while their name must be stored 
-as a string.
+👉 A variable can contain a variety of values. On the other hand, a person's id must be stored as an integer, while their name must be 
+stored as a string.
 👉 The storage method for each of the standard data types that Python provides is specified by Python. The following is a list of the 
 Python-defined data types.
 
