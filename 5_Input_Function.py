@@ -1,11 +1,9 @@
 """
-🙅‍♂️ Input Functions in python:- In Python, input functions are used to take input from the user during program
-execution. The most commonly used input function. This is particularly useful when you want to create interactive
-programs where the user can provide data during execution.
+🙅‍♂️ Input Functions in python:- In Python, input functions are used to take input from the user during program execution. The most commonly 
+used input function. This is particularly useful when you want to create interactive programs where the user can provide data during execution.
 
 ⭐ How input Function Works:
-👉 The input function waits for the user to type something and then press Enter. It reads the input as a
-string and returns it.
+👉 The input function waits for the user to type something and then press Enter. It reads the input as a string and returns it.
 
 👉 Example:
 Prompting the user for their myname
@@ -64,8 +62,7 @@ print(f"Sum of {x} and {y} is {x + y}")
 
 #---------------------------------------------------------------------------------------------------------------------
 """
-Practice Question 1:- Write a program to input student name and marks of 5 subjects and print name
-and percentage in output?
+Practice Question 1:- Write a program to input student name and marks of 5 subjects and print name and percentage in output?
 """
 print("12th class result")
 student_name = input("Enter your name: ")
@@ -84,9 +81,8 @@ print(f"The result of {student_name} is {int(percentage)}%. Well done..!!")
 
 #---------------------------------------------------------------------------------------------------------------------
 """
-Practice Question 2:- Write a python program that collects multiple types of data (e.g., name, age,
-height and student status) from user input, stores them in a dictionary and then prints out the collected
-data?
+Practice Question 2:- Write a python program that collects multiple types of data (e.g., name, age, height and student status) from user 
+input, stores them in a dictionary and then prints out the collected data?
 """
 # Initializing a dictionary
 user_data = {}
@@ -99,35 +95,5 @@ user_data["student"] = input("Are you a student (Yes/No): ")
 
 # print the input from users
 print(user_data)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
