@@ -1,7 +1,7 @@
 """
-🙅‍♂️ Type Casting:- Type casting in python refers to the process of converting a value from one data type
-to another. This can be useful in various situations, such as when you need to perform operations between
-different types or when you need to format data in a specific way.
+🙅‍♂️ Type Casting:- Type casting in Python refers to converting the data type of a variable from one type to another. This can be done either 
+explicitly by the programmer or implicitly by Python. This can be useful in various situations, such as when you need to perform operations 
+between different types or when you need to format data in a specific way.
 
 ⭐ Python has several built-in functions for type casting:
 👉 int():- Convert a value to an integer.
@@ -10,13 +10,14 @@ different types or when you need to format data in a specific way.
 👉 list(), tuple(), set(), dict() and bool().
 
 
-⭐ Implicit Type Casting:- Implicit Type casting as coercion, is performed automatically by the Python
-interpreter. This usually occurs when performing operations between different data types, and Python
-implicitly converts one data type to another to avoid data loss or errors.
+⭐ Implicit Type Casting:- Implicit Type Casting occurs when Python automatically converts one data type to another during an operation, 
+without any explicit request from the programmer.
+This usually happens when a lower data type is converted to a higher data type to prevent data loss.
 
-⭐ Explicit Type Casting:- Explicit Type Casting also known as type conversion, is performed manually by
-the programmer using built-in functions. this is done to ensure the desired type conversion and to avoid
-unexpected behavior.
+⭐ Explicit Type Casting:- Explicit Type Casting is when you manually convert one data type to another using built-in Python functions. 
+This is necessary when Python doesn't automatically convert types (unlike implicit casting).
+
+
 """
 
 
