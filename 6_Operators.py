@@ -172,35 +172,3 @@ print("a is not b => ", a is not b)
 print("a == b => ", a == b)
 print("a != b => ", a != b)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
