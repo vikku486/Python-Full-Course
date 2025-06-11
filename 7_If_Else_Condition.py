@@ -116,7 +116,8 @@ if marks >= 80:
         print("Or You get a iPhone")
         if marks >= 95:
             print("You get a Bike")
-print("You have not anything buy")
+else:
+    print("You have not anything buy")
 
 
 
