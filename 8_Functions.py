@@ -80,55 +80,7 @@ print("Temperature in Fahrenheit:", temp_f)
 # Example5:-
 def myfunction():
     pass  #This does nothing for now
-
-
-
-#--------------------------------------------------------------------------------------------------------------------
-# 👉 Practice_Question1:- Write a program to create a simple calculator?
-# Steps to build calculator program:-
-# 1. Functions for operations
-# 2. user input
-# 3. print result
-
-# Step1:- Create functions:-
-# Function to add two numbers
-def add(num1, num2):
-    return num1 + num2
-# Function to sub two numbers
-def sub(num1, num2):
-    return num1 - num2
-# Function to multiply two numbers
-def multiply(num1, num2):
-    return num1 * num2
-# Function to divide two numbers
-def divide(num1, num2):
-    return num1 / num2
-# Function to average two numbers
-def avg(num1, num2):
-    return (num1 + num2)/2
-
-# Step2:- user input
-print("Please select a operation:\n" "1. Addition\n" "2. Subtraction\n" "3. Multiply\n" "4. Division\n" "5.Average\n")
-select = int(input("Select a operation from 1,2,3,4,5: "))
-number1 = int(input("Enter first number: "))
-number2 = int(input("Enter second number: "))
-
-# Step3:- Print the result
-if select == 1:
-    print(number1, "+", number2, "=", add(number1, number2))
-elif select == 2:
-    print(number1, "-", number2, "=", sub(number1, number2))
-elif select == 3:
-    print(number1, "*", number2, "=", multiply(number1, number2))
-elif select == 4:
-    print(number1, "/", number2, "=", divide(number1, number2))
-elif select == 5:
-    print("(", number1, "+", number2, ")", "/", "2", "=", avg(number1, number2))
-else:
-    print("Invalid operation! Please select again")
-print("Thank You so much..!")
-
-
+   
 
 
 #--------------------------------------------------------------------------------------------------------------------
@@ -239,6 +191,7 @@ print_details(name="Vikas", age=28, position="Data Analyst")
 
 
 
+
 #-------------------------------------------------------------------------------------------------------------------
 # 🙅‍♂️ Lambda Function in Python:- A Lambda function in python is a small, anonymous function defined using the lambda
 # keyword. It can have any number of arguments, but only one expression, which is evaluated and returned.
@@ -268,6 +221,52 @@ sorted_data = sorted(data, key=lambda x: x[1])
 print(sorted_data)      #output [(3, "a"), (1, "b), (2, "c")]
 
 
+
+
+#--------------------------------------------------------------------------------------------------------------------
+# 👉 Practice_Question:- Write a program to create a simple calculator?
+# Steps to build calculator program:-
+# 1. Functions for operations
+# 2. user input
+# 3. print result
+
+# Step1:- Create functions:-
+# Function to add two numbers
+def add(num1, num2):
+    return num1 + num2
+# Function to sub two numbers
+def sub(num1, num2):
+    return num1 - num2
+# Function to multiply two numbers
+def multiply(num1, num2):
+    return num1 * num2
+# Function to divide two numbers
+def divide(num1, num2):
+    return num1 / num2
+# Function to average two numbers
+def avg(num1, num2):
+    return (num1 + num2)/2
+
+# Step2:- user input
+print("Please select a operation:\n" "1. Addition\n" "2. Subtraction\n" "3. Multiply\n" "4. Division\n" "5.Average\n")
+select = int(input("Select a operation from 1,2,3,4,5: "))
+number1 = int(input("Enter first number: "))
+number2 = int(input("Enter second number: "))
+
+# Step3:- Print the result
+if select == 1:
+    print(number1, "+", number2, "=", add(number1, number2))
+elif select == 2:
+    print(number1, "-", number2, "=", sub(number1, number2))
+elif select == 3:
+    print(number1, "*", number2, "=", multiply(number1, number2))
+elif select == 4:
+    print(number1, "/", number2, "=", divide(number1, number2))
+elif select == 5:
+    print("(", number1, "+", number2, ")", "/", "2", "=", avg(number1, number2))
+else:
+    print("Invalid operation! Please select again")
+print("Thank You so much..!")
 
 
 
