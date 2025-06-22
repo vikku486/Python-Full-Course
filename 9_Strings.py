@@ -340,36 +340,36 @@ else:
     print("It is not a palindrome")
 
 
-# 6. Write a program to separate the following string into coma(,) separate values.
+# 4. Write a program to separate the following string into coma(,) separate values.
 a = "OOTD.YOLO.ASAP.BRB.GTG.OTW"
 print(a.split("."))
 
-# 7. Write a program to short strings alphabetically in python.
+# 5. Write a program to short strings alphabetically in python.
 b = "hello"
 print(sorted(b))
 
-# 8. write a program to remove a given character from a string.
+# 6. write a program to remove a given character from a string.
 c = "Hello World"
 print(c.replace("o", "v"))
 
-# 9. Write a program to remove dot(.) from the following string
+# 7. Write a program to remove dot(.) from the following string
 d = "F.R.I.E.N.D.S"
 print(d.replace(".", ""))
 
-# 10. Write a program to check the number of occurance of a substring in a string.
+# 8. Write a program to check the number of occurance of a substring in a string.
 e = "she sells seashells on the sea shore"
 print(e.count("se"))
 
 
-# 11. Take an input from a user as a string then, reverse it.
+# 9. Take an input from a user as a string then, reverse it.
 a = input("Enter anything here: ")
 print(a[::-1])
 
-# 12. Write a program to check if a string contains only digits.
+# 10. Write a program to check if a string contains only digits.
 a = input("Enter anything here: ")
 print(a.isdigit())
 
-# 13. Write a program to find number of vowels in a string.
+# 11. Write a program to find number of vowels in a string.
 a = input("Enter anything here: ")
 vowels = 0
 for i in a:
