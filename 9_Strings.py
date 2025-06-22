@@ -379,18 +379,3 @@ for i in a:
 print("The number of vowels in the following strings are", vowels)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
